@@ -24,11 +24,16 @@ The **No-Code Database Manager** is a web-based tool built with **Streamlit** th
 
 | Upload Excel & Store | Edit Table Rows |
 |----------------------|------------------|
-| ![Upload Screenshot](screenshots/Screenshot1.png) | ![Edit Screenshot](screenshots/Screenshot2.png) |
+| ![Upload Screenshot](screenshot/Screenshot1.png) | ![Edit Screenshot](screenshot/Screenshot2.png) |
 
 | Append Columns | Delete Table or Database |
 |----------------|---------------------------|
-| ![Append Screenshot](screenshots/Screenshot3.png) | ![Delete Screenshot](screenshots/Screenshot4.png) |
+| ![Append Screenshot](screenshot/Screenshot3.png) | ![Delete Screenshot](screenshot/Screenshot4.png) |
+
+
+
+
+
 
 
 ---
@@ -40,4 +45,32 @@ The **No-Code Database Manager** is a web-based tool built with **Streamlit** th
 ```bash
 git clone https://github.com/your-username/no-code-db-manager.git
 cd no-code-db-manager
+
+```
+
+
+
+### 📦 2. Install Required Packages
+```bash
+pip install -r requirements.txt
+```
+
+### 🛠️ 3. MySQL Setup
+```bash
+Start MySQL via XAMPP or your preferred method.
+Default credentials:
+host: localhost
+user: root
+password: "" (empty)
+port: 3308 (or 3306 depending on your setup)
+
+```
+
+### 4.▶️ Running the App
+```bash
+streamlit run app.py
+```
+
+
+
 
